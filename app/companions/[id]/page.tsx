@@ -19,7 +19,6 @@ const Page = async ({ params }: Props) => {
   if (!companion) return redirect(ROUTES.COMPANIONS);
 
   const { subject, name, topic, duration } = companion;
-
   return (
     <main className="">
       <article className="flex rounded-border justify-between p-6 max-md:flex-col">
