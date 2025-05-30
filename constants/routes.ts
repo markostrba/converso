@@ -4,6 +4,7 @@ const ROUTES = {
   MY_JOURNEY: "/my-journey",
   SIGN_IN: "/sign-in",
   NEW_COMPANIONS: "/companions/new",
+  SUBSCRIPTION: "/subscription",
   COMPANION: (id: string) => `/companions/${id}`,
 }
 export default ROUTES
